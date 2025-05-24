@@ -51,9 +51,6 @@ const EmailSection = () => {
             className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
         >
 
-            {/*<div className="bg-gradient-to-r from-red-500 to-orange-500 rounded-full h-80 w-80 z-[-1] blur-lg absolute bottom-0 left-0 transform -translate-x-1/2 translate-y-1/2"></div>*/}
-
-
             <div className="">
                 <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
                 <p className="text-[#ADB7BE] mb-4 max-w-md">
@@ -127,10 +124,11 @@ const EmailSection = () => {
 
                     <button
                         type="submit"
-                        className="bg-gradient-to-r from-orange-400 to-orange-500 
-                            hover:from-orange-500 hover:to-orange-600 
+                        className="bg-gradient-to-r from-cyan-400 to-blue-400
+                            hover:from-cyan-500 hover:to-blue-600
                             text-black font-medium py-2.5 px-5 rounded-lg w-full
-                            cursor-pointer"
+                            cursor-pointer
+                            transition-colors duration-300 ease-in-out"
                     >
                         {isLoading ? "Sending..." : 'Send Email'}
                     </button>
