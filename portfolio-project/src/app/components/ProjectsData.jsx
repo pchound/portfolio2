@@ -1,5 +1,5 @@
 const projectsData = [
-    {
+    /*{
         id: 1,
         title: "A Minute with Bart",
         description: "Political Commentary Site",
@@ -7,7 +7,7 @@ const projectsData = [
         tag: ["All", "Web"],
         gitUrl: "https://github.com/pchound/aminutewithbart",
         previewUrl: "http://www.aminutewithbart.com",
-    },
+    },*/
     {
         id: 2,
         title: "Endless Road Auto Sales",
