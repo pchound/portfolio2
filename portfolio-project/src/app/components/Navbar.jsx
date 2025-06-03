@@ -81,7 +81,7 @@ const Navbar = () => {
                 <div className="menu hidden md:block md:w-auto relative" id="navbar">
                     <ul className="relative flex p-4 md:p-0 sm:flex-row md:space-x-8 mt-0">
                         <div
-                            className="absolute transition-all duration-300 ease-in-out bg-gradient-to-r from-orange-400 to-orange-600 rounded-md h-10 -z-10"
+                            /*className="absolute transition-all duration-300 ease-in-out bg-gradient-to-r from-orange-400 to-orange-600 rounded-md h-10 -z-10"*/
                             style={{ left: highlightLeft, width: highlightWidth }}
                         />
                         {navLinks.map((link, index) => (

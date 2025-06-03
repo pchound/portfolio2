@@ -24,10 +24,11 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects">
+    <div id="projects">
+      <br></br>
       <AnimatedTitle />
 
-      <ul className="grid md:grid-cols-2 gap-8 md:gap-12 justify-center">
+      <ul className="grid md:grid-cols-2 gap-8 md:gap-12 justify-center ">
         {filteredProjects.map((project, index) => {
           const [ref, inView] = useInView({
             triggerOnce: false,
@@ -54,7 +55,7 @@ const ProjectsSection = () => {
           );
         })}
       </ul>
-    </section>
+    </div>
   );
 };
 

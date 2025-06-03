@@ -13,10 +13,11 @@ const AnimatedDesc = () => {
         ${isInView ? "opacity-100 -translate-x-0" : "opacity-0 translate-x-10"}
       `}
         >
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-            et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-            felis, ultricies nec, pellentesque eu, pretium quis, sem...
+            My mission is to create clean, user-friendly digital experiences that make people's lives easier. Beyond code, I care deeply about authentic storytelling and design that resonates emotionally—especially through creative outlets like cartoons and digital art.<br></br><br></br>
+
+            I'm actively seeking opportunities where I can grow as a developer, contribute to meaningful projects, and be part of a team that values creativity, empathy, and technical excellence.
+
+
         </p>
     );
 };

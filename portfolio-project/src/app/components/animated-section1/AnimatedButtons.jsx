@@ -18,13 +18,13 @@ const AnimatedButtons = () => {
       >
         <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-orange-500 to-red-500">
           <span className="block bg-[#121212] hover:bg-slate-800 text-white rounded-full px-6 py-3 cursor-pointer transition-colors duration-300">
-            Hire Me
+            Resume
           </span>
         </button>
       </div>
 
       {/* Download CV Button */}
-      <div
+      {/* <div
         className={`
           transition-all duration-700 ease-out transform delay-200
           ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}
@@ -36,7 +36,7 @@ const AnimatedButtons = () => {
             Download CV
           </span>
         </button>
-      </div>
+      </div>*/}
     </div>
   );
 };
