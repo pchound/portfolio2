@@ -1,13 +1,13 @@
 const projectsData = [
-    /*{
+    {
         id: 1,
-        title: "A Minute with Bart",
-        description: "Political Commentary Site",
-        image: "/images/projects/1.png",
+        title: "QuickCart",
+        description: "Online Store",
+        image: "/images/projects/1.jpg",
         tag: ["All", "Web"],
-        gitUrl: "https://github.com/pchound/aminutewithbart",
-        previewUrl: "http://www.aminutewithbart.com",
-    },*/
+        gitUrl: "https://github.com/pchound/QuickCart",
+        previewUrl: "https://quick-cart-4unup3dzy-josephs-projects-f923fa52.vercel.app/",
+    },
     {
         id: 2,
         title: "Endless Road Auto Sales",
