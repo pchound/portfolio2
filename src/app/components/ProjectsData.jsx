@@ -17,6 +17,16 @@ const projectsData = [
         gitUrl: "https://github.com/pchound/erautosales",
         previewUrl: "http://www.erautosales.com",
     },
+    {
+        id: 3,
+        title: "Ischys Wellness",
+        description: "Mental Health Clinic (Next.js)",
+        image: "/images/projects/3.jpg",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/pchound/ischys",
+        previewUrl: "https://ischys.vercel.app/",
+    },
+
 
 ];
 
