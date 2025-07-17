@@ -15,14 +15,14 @@ const AnimatedLinks = () => {
                 ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}
             `}
         >
-            <Link href="https://github.com" target="_blank">
+            <Link href="https://github.com/pchound" target="_blank">
                 <Image
                     src={GithubIcon}
                     alt="Github Icon"
                     className={`transition-transform duration-500 ${isInView ? "scale-100" : "scale-75"}`}
                 />
             </Link>
-            <Link href="https://linkedin.com" target="_blank">
+            <Link href="https://www.linkedin.com/in/josephgarnerweb/" target="_blank">
                 <Image
                     src={LinkedinIcon}
                     alt="Linkedin Icon"
