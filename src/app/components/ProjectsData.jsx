@@ -33,7 +33,7 @@ const projectsData = [
         image: "/images/projects/4.jpg",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/pchound/ischys",
-        previewUrl: "https://ischys.vercel.app/",
+        previewUrl: "https://dqy.asc.mybluehost.me/",
     }
 
 
