@@ -25,15 +25,6 @@ const projectsData = [
         tag: ["All", "Web"],
         gitUrl: "https://github.com/pchound/ischys",
         previewUrl: "https://ischys.vercel.app/",
-    },
-        {
-        id: 4,
-        title: "Joseph's Travels",
-        description: "My Travel Blog (WordPress)",
-        image: "/images/projects/4.jpg",
-        tag: ["All", "Web"],
-        gitUrl: "https://github.com/pchound/ischys",
-        previewUrl: "https://dqy.asc.mybluehost.me/",
     }
 
 
