@@ -28,7 +28,7 @@ const projectsData = [
         previewUrl: "https://www.zingpest.com/",
     },
         {
-        id: 6,
+        id: 7,
         title: "Endless Road Auto Sales",
         description: "Car sales website (PHP/SQL)",
         image: "/images/projects/2.png",
@@ -36,7 +36,6 @@ const projectsData = [
         gitUrl: "https://github.com/pchound/erautosales",
         previewUrl: "http://www.erautosales.com",
     }
-
 ];
 
 export default projectsData;
