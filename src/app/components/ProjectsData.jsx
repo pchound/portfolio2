@@ -28,7 +28,7 @@ const projectsData = [
         previewUrl: "https://www.zingpest.com/",
     },
         {
-        id: 5,
+        id: 6,
         title: "Endless Road Auto Sales",
         description: "Car sales website (PHP/SQL)",
         image: "/images/projects/2.png",
